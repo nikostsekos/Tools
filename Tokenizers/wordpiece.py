@@ -291,7 +291,7 @@ def main():
     elapsed_us = (t_end - t_start) * 1_000_000.0
 
 
-    print("\n--- Summary ---")
+  
     print(f"Lines tokenized: {total_lines}")
     print(f"Total tokens:    {total_tokens}")
 
