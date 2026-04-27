@@ -239,14 +239,6 @@ class WordPieceTokenizer:
 
 
 
-def print_usage():
-    print("Usage: python wordpiece_tokenizer.py <vocab.txt> <text_file>")
-    print()
-    print("Get the AUEB GreekBERT vocab with:")
-    print("  curl -L -o vocab.txt \\")
-    print("    https://huggingface.co/nlpaueb/"
-          "bert-base-greek-uncased-v1/resolve/main/vocab.txt")
-
 
 def main():
 
